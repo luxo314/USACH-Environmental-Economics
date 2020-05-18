@@ -1,7 +1,8 @@
 # USACH-Environmental-Economics
 ## Clase de economía ambiental USACH
 
-<font color='red'> Trabajo en progreso</font>
+
+<span style="color:red">Trabajo en progreso!!</span>
 
 <p>Repositorio que contiene las clases del curso de economía ambiental en formato .ipynb y un módulo en python usado. </p>
 <p>Los temas son:</p>
