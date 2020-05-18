@@ -1,5 +1,5 @@
 # USACH-Environmental-Economics
-<p>Clase de economía ambiental USACH</p>
+## Clase de economía ambiental USACH
 
 <p>Repositorio que contiene las clases del curso de economía ambiental en formato .ipynb y un módulo en python usado. </p>
 <p>Los temas son:</p>
