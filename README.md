@@ -5,7 +5,7 @@
 <p>Los temas son:</p>
 
 <ol>
-  <li>Repaso economía:
+  <li><strong>Repaso economía:</strong>
     <ul>
       <li>La función de demanda</li>
       <li>La función de oferta</li>
@@ -13,14 +13,14 @@
     </ul>
   </li>
   
-  <li>Eficiencia de mercado:
+  <li><strong>Eficiencia de mercado:</strong>
     <ul>
       <li>Primer teorema del bienestar</li>
       <li>Externalidades</li>
     </ul>
   </li>
   
-  <li>Soluciones:
+  <li><strong>Soluciones:</strong>
     <ul>
       <li>Impuestos pigouvianos</li>
       <li>Negociación a la Coase</li>
