@@ -24,7 +24,7 @@
     <ul>
       <li>Impuestos pigouvianos</li>
       <li>Negociación a la Coase</li>
-      <li>Cuoatas transables</li>
+      <li>Cuotas transables</li>
    </ul>
  </li>
 </ol>
