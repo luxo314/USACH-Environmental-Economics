@@ -638,24 +638,28 @@ class FPP:
 
 
 def locate_dot(Q_, P_, show_line = True,
-               color = 'green',
-               annotate = None):
+               color1 = 'green',
+               annotate = None,
+               color2 = None):
     """
     Resalta el punto (Q_,P_) en un gráfico
     """
     N = 10
-    plt.scatter(Q_,P_, color = color)
+    plt.scatter(Q_,P_, color = color1)
     if show_line == True:
         plt.plot(np.linspace(0,Q_,int(N/2)),
                         np.linspace(P_,P_,int(N/2)),
-                     linestyle = '-.', color = color)
+                     linestyle = '-.', color = color1)
         
         plt.plot(np.linspace(Q_,Q_,int(N/2)),
                     np.linspace(0,P_,int(N/2)),
-                     linestyle = '-.', color = color)
+                     linestyle = '-.', color = color1)
+    
+    if color2 is None:
+        color2 = color1
         
     if annotate is not None:
-        plt.annotate(annotate, (Q_,P_),bbox={'facecolor': color, 'alpha': 0.3, 'pad': 10},fontsize=15)
+        plt.annotate(annotate, (Q_,P_),bbox={'facecolor': color2, 'alpha': 0.3, 'pad': 10},fontsize=15)
         
 def plot_slope(x0,y0,m, l = 0.3, N = 25):
     c = y0 - x0*m
