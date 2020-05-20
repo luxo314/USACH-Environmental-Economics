@@ -308,7 +308,15 @@ class Market:
         self.Qmax = Qmax # Cantidad máximo en el gráfico
         self.Qmin = Qmin # Cantidad mínima en el gráfico
         self.N = 100 # Número de puntos por gráfico
+        
+        if callable(Extm_P) == False:
+            Extm_P_aux = Extm_P
+            Extm_P = lambda Q: Extm_P_aux
         self.Extm_P = Extm_P # Externalidad marginal de la producción
+            
+        if callable(Extm_C) == False:
+            Extm_C_aux = Extm_C
+            Extm_C = lambda Q: Extm_C_aux
         self.Extm_C = Extm_C # Externalidad marginal del consumo
         
     def Equilibrio(self):
