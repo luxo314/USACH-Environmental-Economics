@@ -464,7 +464,7 @@ class Market:
                                     color = 'gray', alpha = 0.3)
             else:
                 Qi = np.linspace(Q_,Q_social,int(self.N/2))
-                plt.fill_between(Qi, self.Pd(Qi), self.Ps(Qi),
+                plt.fill_between(Qi, self.BMGS(Qi), self.CMGS(Qi),
                                       color = 'gray', alpha = 0.3)
                     
         if self.Pr < np.inf:
